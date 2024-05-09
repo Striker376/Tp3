@@ -25,10 +25,10 @@ public class Appweb3Application implements CommandLineRunner {
         patient.setDateNaissance(new Date());
         patient.setMalade(true);
         patient.setScore(25);
-        Patient patient1=new Patient(null,"Apostorial",new Date(),false,221);
+        Patient patient1=new Patient(null,"Rania",new Date(),false,221);
        repos.save(patient1);
        repos.save(patient);
-       repos.save(new Patient(null,"Extratorial",new Date(),true,21));
+       repos.save(new Patient(null,"Sofiaaaa",new Date(),true,21));
 
     }
 }
